@@ -147,7 +147,8 @@ module.exports = router
     try {
       const data = await User.findOne({ where: { email: req.body.email } })
       if (!data) {
-        res.json({
+        res.status(404).json({
+          status: 'Failed',
           message: 'Email not found'
         })
       } else {
@@ -157,7 +158,7 @@ module.exports = router
         sendEmailForgotPassword(email, idUser, fullName)
         res.status(200).json({
           status: 'Success',
-          Message: 'Send mail success'
+          message: 'Send mail success'
         })
       }
     } catch (error) {
