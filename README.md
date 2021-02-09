@@ -5,19 +5,19 @@ This is a code backend ticket project created using node js, express js and sequ
 
 1. Clone the repo
 ```
-https://github.com/syauqeesy/ankasa-ticketing-api.git
+https://github.com/eggyatma2908/Frontend-AnkasaTicketing.git
 ```
 
 2. Add .env file at root folder project, and add following
 ```
-PORT=
-BASE_URL=
-SECRET_KEY=
-NODE_ENV=
-DB_HOST=
-DB_USER=
-DB_PASSWORD=
-DB_NAME=
+PORT =
+BASE_URL = 
+SECRET_KEY =
+NODE_ENV =
+DB_HOST =
+DB_USER =
+DB_PASSWORD =
+DB_NAME =
 ```
 
 3. Install NPM Packages and create database
