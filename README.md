@@ -11,13 +11,17 @@ https://github.com/eggyatma2908/Frontend-AnkasaTicketing.git
 2. Add .env file at root folder project, and add following
 ```
 PORT =
-BASE_URL = 
+BASE_URL = [Backend Deploy]
 SECRET_KEY =
 NODE_ENV =
 DB_HOST =
 DB_USER =
 DB_PASSWORD =
 DB_NAME =
+EMAIL_USERNAME = 
+EMAIL_PASSWORD = 
+
+BASE_URL_FRONT_END = [Frontend Deploy]
 ```
 
 3. Install NPM Packages and create database
@@ -29,10 +33,12 @@ yarn sequelize db:migrate
 yarn start or yarn dev
 ```
 
-
 # Rest API
 You can view my Postman collection </br>
 [![run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/2eeb42b4fccd98b0bdee)
+
+# Related Project
+https://github.com/eggyatma2908/Frontend-AnkasaTicketing
 
 # Author
 This project was built by :
